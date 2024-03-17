@@ -8,32 +8,6 @@
     height: auto; /* Maintain aspect ratio */
   }  
 
-.button1{
-    margin-top: 100px;
-    padding: 10px 20px;
-    background-color: #d41c2c;
-    color: #333;
-    border: none;
-    border-radius: 4px;
-    font-size: 16px;
-    cursor: pointer;
-    width: 15%;
-    color: #fccc44;
-    /* fccc44 */
-}  
-
-.button2{
-    margin-top: 50px;
-    padding: 10px 20px;
-    background-color: #d41c2c;
-    color: #333;
-    border: none;
-    border-radius: 4px;
-    font-size: 16px;
-    cursor: pointer;
-    width: 15%;
-    color: #fccc44;
-}  
 
 .app {
     background-color: rgb(241, 240, 149); 
@@ -41,6 +15,36 @@
     
   }
 
-.label {
-    margin-top: 100px;
-}  
+.labels {
+  font-style: italic;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  margin-right: '8px';
+  font-size: '50px';
+  padding: 12px;
+  
+} 
+
+.options {
+ font-family: 'Bembo Bold Italic';
+ font-style: italic
+}
+
+.textlink {
+  padding: '8px';
+  border-radius: '4px';
+  border: '1px solid #ccc';
+  margin-right: '8px';
+  width: '200px';
+}
+
+.textbutton {
+  padding: '8px 16px';
+  border-radius: '4px';
+  background-color: '#007bff';
+  color: #fff;
+  border: 'none';
+  cursor: pointer;
+}
+
+
